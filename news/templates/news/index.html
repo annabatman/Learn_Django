@@ -38,7 +38,7 @@
             {% for item in news %}
             <div class="card mb-3">
                 <div class="card-header">
-                    Категория новостей:
+                    Категория новостей: {{ item.category }}
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">{{ item.title }}</h5>
